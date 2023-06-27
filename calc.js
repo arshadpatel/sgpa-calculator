@@ -59,6 +59,8 @@ const result = () => {
             grades = 7;
         else if (grades == "B" || grades == "b")
             grades = 6;
+        else if (grades == "C" || grades == "c")
+            grades = 5;
         else
             grades = 0;
 
